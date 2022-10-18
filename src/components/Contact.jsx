@@ -46,7 +46,7 @@ function Contact() {
                 </div>
 
                 <div className=" flex flex-col justify-center">
-                  <span>phone</span>
+                  <span className="text-xs text-[#44566C]">Phone</span>
                   <span>+3132423274</span>
                 </div>
               </div>
@@ -56,7 +56,7 @@ function Contact() {
                   <HiOutlineMailOpen />
                 </div>
                 <div className=" flex flex-col justify-center">
-                  <span>email</span>
+                  <span className="text-xs text-[#44566C]">Email</span>
                   <span>email@gmail.com</span>
                 </div>
               </div>
@@ -66,7 +66,7 @@ function Contact() {
                   <GrLocation />
                 </div>
                 <div className=" flex flex-col justify-center">
-                  <span>location</span>
+                  <span className="text-xs text-[#44566C]">Location</span>
                   <span>Hong kong china</span>
                 </div>
               </div>
@@ -76,14 +76,14 @@ function Contact() {
                   <AiTwotoneCalendar />
                 </div>
                 <div className=" flex flex-col justify-center">
-                  <span>birthday</span>
+                  <span className="text-xs text-[#44566C]">Birthday</span>
                   <span>May 27, 1990</span>
                 </div>
               </div>
             </div>
           </div>
           <button className="text-">
-            <span >
+            <span>
               <BiDownload />
             </span>
             Download CV
