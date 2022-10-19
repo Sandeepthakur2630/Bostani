@@ -16,4 +16,5 @@ export default App;
 
 const Root = styled.div`
   background-image: url("bg.jpg");
+  background-attachment: fixed;
 `;

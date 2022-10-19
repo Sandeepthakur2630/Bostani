@@ -14,7 +14,7 @@ import { SlDocs } from "react-icons/sl";
 import { BiCube } from "react-icons/bi";
 import { FaBlogger } from "react-icons/fa";
 import { AiOutlineContacts } from "react-icons/ai";
-import { BsCodeSlash } from "react-icons/bs";
+// import { BsCodeSlash } from "react-icons/bs";
 // import { FiCamera } from "react-icons/fi";
 // import { AiFillSetting } from "react-icons/ai";
 // import { FaAppStoreIos } from "react-icons/fa";
@@ -263,6 +263,9 @@ function Contact() {
                   </div>
                 </div>
               </div>
+              <p className="text-center  mt-4 py-6 text-[gray]">
+                © 2022 All Rights Reserved by ib-themes.
+              </p>
             </div>
           </div>
         </div>
@@ -303,10 +306,11 @@ const Root = styled.div`
 
   .avatar_img {
     position: absolute;
-    height: 240px;
-    width: 240px;
-    top: -168px;
-    left: 84px;
+    height: 15rem;
+    width: 15rem;
+    top: -10.5rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .social-icons {
     :hover {
@@ -319,23 +323,23 @@ const Root = styled.div`
     background: #fff;
     text-align: center;
     background-color: #f1ecec;
-    border-radius: 10px;
+    border-radius: 0.8rem;
     :hover {
       background-color: #dd2476;
       transition: 0.4s;
     }
   }
   .red-hr {
-    width: 175px;
+    width: 10.9rem;
     height: 2px;
-    margin-top: 15px;
+    margin-top: 1rem;
     margin-left: 1rem;
     background-color: #dd2476;
   }
   .grid-elements {
     /* background: rgb(252, 244, 255); */
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 1rem;
   }
   .custom-container {
   }

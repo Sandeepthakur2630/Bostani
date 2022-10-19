@@ -17,7 +17,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+html {
+  font-size: 100%;
+}
 .custom_container {
   max-width: 80%;
   margin: auto;
