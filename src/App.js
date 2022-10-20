@@ -16,6 +16,9 @@ export default App;
 
 const Root = styled.div`
   background-image: url("bg.jpg");
+  @media (max-width: 786px) {
+    background: #fff;
+  }
   background-attachment: fixed;
   @media screen and (max-width: 1024px) {
     padding: 2rem;

@@ -1,7 +1,7 @@
 import React from "react";
 import { FiMoon } from "react-icons/fi";
 import styled from "styled-components";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 function Navbar() {
   return (
     <>
@@ -9,12 +9,15 @@ function Navbar() {
         <div className="logo-img">
           <img src="Bostani.png" alt="" />
         </div>
-        <div className="hamburger">++++ </div>
+        <div className="hamburger">
+          <span>
+            <GiHamburgerMenu />
+          </span>{" "}
+        </div>
         <div className="icon-div">
           <FiMoon className="icon" />
         </div>
       </Navwrap>
-      
     </>
   );
 }

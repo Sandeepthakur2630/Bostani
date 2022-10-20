@@ -27,7 +27,7 @@ function Contact() {
         <div className="hidden-toggler">
           <div className=" hr-wrapper flex items-center gap-3">
             <h1 className="font-bold text-3xl">About me</h1>
-            <div className="h-[3px] w-[75px] bg-[#dd2476]"></div>
+            <div className="h-[2px] w-[75px] bg-[#dd2476]"></div>
           </div>
         </div>
         <div className="about_section flex justify-between items-start gap-20 ">
@@ -252,9 +252,9 @@ function Contact() {
                     </div>
                   </div>
                 </div>
-                <div className="text-center p-8 mt-[5rem] rounded-[10px] bg-[#f8fbfb]">
+                <div className="text-center p-8 mt-[2rem] rounded-[10px] bg-[#f8fbfb]">
                   <h3 className="font-bold text-3xl">Clients</h3>
-                  <div className="flex  ml-[5rem] mt-[5rem] gap-6 ">
+                  <div className="flex  mt-[5rem] gap-6 ">
                     <div>
                       <img src="brand1.png" alt="" />
                     </div>
@@ -295,6 +295,12 @@ const Root = styled.div`
     width: 100%;
     padding: 2rem;
     border-radius: 1.5rem;
+  }
+  .parent-grid {
+    @media (max-width: 786px) {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
   }
   .hidden-toggler {
     display: none;
