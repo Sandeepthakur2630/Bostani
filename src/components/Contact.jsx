@@ -25,7 +25,8 @@ import Blog from "./Blog";
 // import { GiLadder } from "react-icons/gi";
 
 function Contact() {
-  const [active, setActive] = useState(2);
+  const [active, setActive] = useState(1);
+
   return (
     <>
       <Root className="custom_container ">
@@ -124,25 +125,25 @@ function Contact() {
                   <div>
                     <MdOutlinePeopleAlt className="ml-[15px]" />
                   </div>
-                  <p>About</p>
+                  <p onClick={() => setActive(1)}>About</p>
                 </div>
                 <div className="nav-icons">
                   <div>
                     <SlDocs className="ml-[23px]" />
                   </div>
-                  <p>Resume</p>
+                  <p onClick={() => setActive(2)}>Resume</p>
                 </div>
                 <div className="nav-icons">
                   <div>
                     <BiCube className="ml-[11px]" />
                   </div>
-                  <p>Work</p>
+                  <p onClick={() => setActive(3)}>Work</p>
                 </div>
                 <div className="nav-icons">
                   <div>
                     <FaBlogger className="ml-[8px]" />
                   </div>
-                  <p>Blog</p>
+                  <p onClick={() => setActive(4)}>Blog</p>
                 </div>
                 <div className="nav-icons">
                   <div>
